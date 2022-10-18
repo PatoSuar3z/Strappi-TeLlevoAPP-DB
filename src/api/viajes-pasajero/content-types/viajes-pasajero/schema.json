@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "viajes_pasajeros",
+  "info": {
+    "singularName": "viajes-pasajero",
+    "pluralName": "viajes-pasajeros",
+    "displayName": "viajes_pasajero"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "destino": {
+      "type": "string"
+    },
+    "origen": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "hora": {
+      "type": "time"
+    },
+    "monto_cancelado": {
+      "type": "biginteger"
+    }
+  }
+}
