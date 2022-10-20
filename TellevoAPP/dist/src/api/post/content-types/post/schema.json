@@ -1,0 +1,34 @@
+{
+    "kind": "collectionType",
+    "collectionName": "posts",
+    "info": {
+        "singularName": "post",
+        "pluralName": "posts",
+        "displayName": "post",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "origen": {
+            "type": "string"
+        },
+        "destino": {
+            "type": "string"
+        },
+        "capacidad": {
+            "type": "integer"
+        },
+        "fecha": {
+            "type": "date"
+        },
+        "hora": {
+            "type": "time"
+        },
+        "ingreso": {
+            "type": "biginteger"
+        }
+    }
+}
